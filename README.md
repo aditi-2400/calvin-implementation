@@ -71,7 +71,7 @@ Open [http://localhost:6006](http://localhost:6006) in your browser.
 - Validated logging with **TensorBoard**.
 - Ensured model trains on **MPS backend** with float32 precision.
 
-## ⚡ Debugging Journey
+## Debugging Journey
 Some key issues faced during reproduction:
 - **Hydra Config Errors** → fixed by using `+` overrides and proper logger configs.  
 - **Logger not found** → used `logger=tb_logger`.  
