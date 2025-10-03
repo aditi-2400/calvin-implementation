@@ -38,6 +38,8 @@ try:
 except ImportError:
     import pyhash as xxhash
 
+```
+
 On Apple Silicon (M1/M2/M3), PyTorch uses **MPS backend**.  
 Ensure you run training with **float32** precision since MPS does not support float64.
 
